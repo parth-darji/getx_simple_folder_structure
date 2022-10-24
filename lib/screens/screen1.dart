@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_simple_folder_structure/controllers/screen1_controller.dart';
 
+// use getview class to inject controller within the screen
 class Screen1 extends GetView<Screen1Controller> {
   Screen1({super.key});
 
